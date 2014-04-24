@@ -1,0 +1,484 @@
+.wrapper {
+   min-height: 600px;
+}
+
+
+h2 {
+   line-height: 1.2em;
+   font-size: 18px;
+   margin: 20px 10px 10px;
+   font-weight: normal;
+}
+
+.left {
+   float: left;
+}
+
+.right {
+   float: right;
+}
+
+.clear {
+   clear: both;
+}
+
+#middle {
+   font-size: 13px;
+   font-family: Arial, Tahoma, sans-serif;
+}
+
+.main-menu {
+   list-style: none;
+   background: #EDF0F2;
+   padding: 5px 15px;
+   margin-bottom: 20px;
+
+   li {
+      display: inline-block;
+      padding: 5px 10px;
+      border-right: 1px solid #ddd;
+      font-size: 14px;
+
+      &:last-of-type {
+         border-right: none;
+      }
+   }
+}
+
+#sidebar {
+   font-family: Arial, Tahoma, sans-serif;
+
+   .bar {
+      border-radius: 4px;
+      margin: 0 5px 20px;
+      overflow: hidden;
+
+      .title {
+         border-radius: 4px;
+         background: url('../i/more1.jpg');
+         text-align: center;
+         vertical-align: middle;
+         color: #fff;
+         font-size: 18px;
+         padding: 5px 0 10px;
+         text-shadow: 0 0 1px rgba(0,0,0,.2);
+      }
+
+      .content {
+         padding: 12px 8px 5px;
+      }
+   }
+}
+
+#profile {
+   table {
+      td, tr {
+         vertical-align: top;
+         border-collapse: collapse;
+      }
+   }
+
+   .avatar {
+      max-width: 50px;
+      max-height: 50px;
+      margin-right: 6px;
+      border-radius: 4px;
+   }
+
+   .name {
+      font-size: 15px;
+      margin: 0 0 3px;
+   }
+
+   .join {
+      padding: 0 5px;
+      font-size: 13px;
+   }
+
+   .join-button {
+      text-align: center;
+      padding: 10px 0 0;
+   }
+}
+
+.top-menu {
+   margin-top: -10px;
+   border-bottom: 2px solid #eee;
+   padding-bottom: 3px;
+   font-size: 0;
+
+   li {
+      display: inline-block;
+      font-size: 14px;
+      padding: 2px 9px;
+      border-right: 1px solid #eee;
+
+      &:last-of-type {
+         border-right: 0;
+      }
+   }
+}
+
+#admin {
+
+   & > form {
+      padding: 10px 15px 15px;
+      margin: 5px 10px 15px;
+      //border-bottom: 1px solid #eee;
+
+      input {
+         margin-bottom: 10px;
+      }
+   }
+
+   .img {
+      img {
+         max-width: 50px;
+         max-height: 35px;
+         margin: 0 10px;
+      }
+   }
+
+   input, select {
+      padding: 3px 4px;
+      height: auto;
+   }
+
+   .btn {
+      padding: 1px 6px;
+   }
+
+   .btn-big {
+      font-size: 14px;
+      padding: 6px 12px;
+   }
+
+   table {
+      form {
+         margin: 0;
+      }
+   }
+
+   .tourneys, .teams {
+      border-collapse: collapse;
+
+      tr {
+         border-bottom: 1px solid #eee;
+      }
+
+      tr, td {
+         vertical-align: top;
+         padding: 5px 0;
+      }
+
+
+
+      .title {
+         font-size: 14px;
+         min-width: 250px;
+         margin-bottom: 5px;
+      }
+
+      .desc {
+         color: #666;
+      }
+   }
+
+   .games {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 0 auto;
+
+      td {
+         //padding: 3px 5px 5px;
+
+         button {
+            font-size: 12px;
+         }
+
+         input {
+            width: 70px;
+            font-size: 12px;
+         }
+
+         select {
+            font-size: 12px;
+            width: 120px;
+         }
+      }
+
+      tr {
+         border-bottom: 1px solid #ddd;
+      }
+   }
+}
+
+.games {
+   margin: 10px 0 30px;
+
+   .game {
+      width: 80%;
+      margin: 15px auto;
+
+      .info {
+         margin: 4px 10px;
+         color: #777;
+      }
+
+      table {
+         overflow: hidden;
+         border-radius: 2px;
+         background: #EBEBEB;
+         box-shadow: 1px 1px 1px #C4C4C4;
+         cursor: pointer;
+
+         &:hover {
+            background: #e0e0e0;
+
+            .img-wrap {
+               box-shadow: 15px 0 15px #e0e0e0 inset;
+            }
+         }
+      }
+   }
+}
+
+.games-table {
+   width: 100%;
+   margin: 0 auto;
+
+   tr, td {
+      vertical-align: middle;
+   }
+
+   .team {
+      width: 33%;
+      font-size: 16px;
+      color: #474747;
+      //font-weight: bold;
+
+      .name {
+         display: inline-block;
+         padding-top: 10px;
+
+         .ratio {
+            margin-top: 5px;
+            color: #888;
+         }
+      }
+
+      img {
+         display: inline-block;
+         max-height: 50px;
+         border-radius: 5px;
+         border: 2px solid #2B6373;
+      }
+
+      &.team1 {
+         text-align: right;
+
+         img {
+            float: right;
+            margin-left: 7px;
+         }
+      }
+
+      &.team2 {
+         //color: #204B5F;
+
+         img {
+            float: left;
+            margin-right: 7px;
+         }
+      }
+   }
+
+   .vs {
+      text-align: center;
+      width: 40px;
+      font-size: 14px;
+   }
+
+   .tourney {
+      text-align: right;
+      width: 135px;
+
+      .img-wrap {
+         box-shadow: 15px 0 15px #EBEBEB inset;
+         height: 80px;
+         width: 135px;
+         background-size: cover;
+         background-position: center;
+         float: right;
+      }
+   }
+
+   .time {
+      //display: none;
+   }
+}
+
+#single-game {
+
+   .bet-form {
+      margin: 15px 15px 25px;
+
+      .summ {
+         width: 150px;
+      }
+   }
+
+   ul {
+      list-style: none;
+      margin: 10px 10px 0 25px;
+
+      li {
+         margin: 8px 0;
+         font-size: 13px;
+      }
+   }
+
+   .wrap-table {
+      width: 100%;
+
+      td {
+         vertical-align: top;
+
+         &.info {
+            width: 55%;
+         }
+      }
+
+      .table {
+         width: 100%;
+         margin-bottom: 0px;
+
+         td {
+            width: 50%;
+            border-top: 0;
+         }
+
+         .team {
+            font-size: 15px;
+
+            img {
+               border-radius: 4px;
+               max-width: 80px;
+               max-height: 45px;
+            }
+         }
+
+         .team1 {
+            text-align: right;
+            border-right: 2px solid #eee;
+
+            img {
+               margin-left: 5px;
+            }
+         }
+
+         .team2 {
+            img {
+               margin-right: 5px;
+            }
+         }
+      }
+   }
+
+
+}
+
+
+.bet {
+   margin: 15px 10px 10px;
+   padding-top: 15px;
+   border-top: 2px solid #ddd;
+
+   div.info {
+      color: #888;
+      font-size: 12px;
+      text-align: right;
+      margin: 0 10px;
+   }
+
+   ul {
+      list-style: none;
+      margin: 0 0 0 15px;
+
+      li {
+         margin: 8px 0;
+         font-size: 13px;
+      }
+   }
+
+   .wrap-table {
+      margin-top: -15px;
+      width: 100%;
+
+      td {
+         border-top: 0;
+         vertical-align: bottom;
+
+         &.info {
+            width: 55%;
+         }
+      }
+
+      .game {
+         font-size: 14px;
+         cursor: pointer;
+
+         td {
+            width: 50%;
+            padding-bottom: 0;
+
+            &.team1 {
+               text-align: right;
+
+               img {
+                  margin-left: 5px;
+               }
+            }
+
+            &.team2 {
+               margin-right: 5px;
+            }
+
+            img {
+               border-radius: 4px;
+               max-width: 80px;
+               max-height: 45px;
+            }
+         }
+
+         &:hover {
+            font-weight: bold;
+         }
+      }
+   }
+}
+
+.profile-table {
+   margin: 10px 20px 30px;
+
+   td {
+      vertical-align: top;
+
+      .name {
+         font-size: 16px;
+         margin: 0 0 10px;
+      }
+
+      .summ {
+         font-size: 14px;
+         color: #444;
+      }
+   }
+
+   .image {
+      img {
+         border-radius: 4px;
+         margin: 0 10px;
+      }
+   }
+}

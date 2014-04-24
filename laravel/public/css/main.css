@@ -1,0 +1,368 @@
+.wrapper {
+  min-height: 600px;
+}
+h2 {
+  line-height: 1.2em;
+  font-size: 18px;
+  margin: 20px 10px 10px;
+  font-weight: normal;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+#middle {
+  font-size: 13px;
+  font-family: Arial, Tahoma, sans-serif;
+}
+.main-menu {
+  list-style: none;
+  background: #EDF0F2;
+  padding: 5px 15px;
+  margin-bottom: 20px;
+}
+.main-menu li {
+  display: inline-block;
+  padding: 5px 10px;
+  border-right: 1px solid #ddd;
+  font-size: 14px;
+}
+.main-menu li:last-of-type {
+  border-right: none;
+}
+#sidebar {
+  font-family: Arial, Tahoma, sans-serif;
+}
+#sidebar .bar {
+  border-radius: 4px;
+  margin: 0 5px 20px;
+  overflow: hidden;
+}
+#sidebar .bar .title {
+  border-radius: 4px;
+  background: url('../i/more1.jpg');
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 18px;
+  padding: 5px 0 10px;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+}
+#sidebar .bar .content {
+  padding: 12px 8px 5px;
+}
+#profile table td,
+#profile table tr {
+  vertical-align: top;
+  border-collapse: collapse;
+}
+#profile .avatar {
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 6px;
+  border-radius: 4px;
+}
+#profile .name {
+  font-size: 15px;
+  margin: 0 0 3px;
+}
+#profile .join {
+  padding: 0 5px;
+  font-size: 13px;
+}
+#profile .join-button {
+  text-align: center;
+  padding: 10px 0 0;
+}
+.top-menu {
+  margin-top: -10px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 3px;
+  font-size: 0;
+}
+.top-menu li {
+  display: inline-block;
+  font-size: 14px;
+  padding: 2px 9px;
+  border-right: 1px solid #eee;
+}
+.top-menu li:last-of-type {
+  border-right: 0;
+}
+#admin > form {
+  padding: 10px 15px 15px;
+  margin: 5px 10px 15px;
+}
+#admin > form input {
+  margin-bottom: 10px;
+}
+#admin .img img {
+  max-width: 50px;
+  max-height: 35px;
+  margin: 0 10px;
+}
+#admin input,
+#admin select {
+  padding: 3px 4px;
+  height: auto;
+}
+#admin .btn {
+  padding: 1px 6px;
+}
+#admin .btn-big {
+  font-size: 14px;
+  padding: 6px 12px;
+}
+#admin table form {
+  margin: 0;
+}
+#admin .tourneys,
+#admin .teams {
+  border-collapse: collapse;
+}
+#admin .tourneys tr,
+#admin .teams tr {
+  border-bottom: 1px solid #eee;
+}
+#admin .tourneys tr,
+#admin .teams tr,
+#admin .tourneys td,
+#admin .teams td {
+  vertical-align: top;
+  padding: 5px 0;
+}
+#admin .tourneys .title,
+#admin .teams .title {
+  font-size: 14px;
+  min-width: 250px;
+  margin-bottom: 5px;
+}
+#admin .tourneys .desc,
+#admin .teams .desc {
+  color: #666;
+}
+#admin .games {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+}
+#admin .games td button {
+  font-size: 12px;
+}
+#admin .games td input {
+  width: 70px;
+  font-size: 12px;
+}
+#admin .games td select {
+  font-size: 12px;
+  width: 120px;
+}
+#admin .games tr {
+  border-bottom: 1px solid #ddd;
+}
+.games {
+  margin: 10px 0 30px;
+}
+.games .game {
+  width: 80%;
+  margin: 15px auto;
+}
+.games .game .info {
+  margin: 4px 10px;
+  color: #777;
+}
+.games .game table {
+  overflow: hidden;
+  border-radius: 2px;
+  background: #EBEBEB;
+  box-shadow: 1px 1px 1px #C4C4C4;
+  cursor: pointer;
+}
+.games .game table:hover {
+  background: #e0e0e0;
+}
+.games .game table:hover .img-wrap {
+  box-shadow: 15px 0 15px #e0e0e0 inset;
+}
+.games-table {
+  width: 100%;
+  margin: 0 auto;
+}
+.games-table tr,
+.games-table td {
+  vertical-align: middle;
+}
+.games-table .team {
+  width: 33%;
+  font-size: 16px;
+  color: #474747;
+}
+.games-table .team .name {
+  display: inline-block;
+  padding-top: 10px;
+}
+.games-table .team .name .ratio {
+  margin-top: 5px;
+  color: #888;
+}
+.games-table .team img {
+  display: inline-block;
+  max-height: 50px;
+  border-radius: 5px;
+  border: 2px solid #2B6373;
+}
+.games-table .team.team1 {
+  text-align: right;
+}
+.games-table .team.team1 img {
+  float: right;
+  margin-left: 7px;
+}
+.games-table .team.team2 img {
+  float: left;
+  margin-right: 7px;
+}
+.games-table .vs {
+  text-align: center;
+  width: 40px;
+  font-size: 14px;
+}
+.games-table .tourney {
+  text-align: right;
+  width: 135px;
+}
+.games-table .tourney .img-wrap {
+  box-shadow: 15px 0 15px #EBEBEB inset;
+  height: 80px;
+  width: 135px;
+  background-size: cover;
+  background-position: center;
+  float: right;
+}
+#single-game .bet-form {
+  margin: 15px 15px 25px;
+}
+#single-game .bet-form .summ {
+  width: 150px;
+}
+#single-game ul {
+  list-style: none;
+  margin: 10px 10px 0 25px;
+}
+#single-game ul li {
+  margin: 8px 0;
+  font-size: 13px;
+}
+#single-game .wrap-table {
+  width: 100%;
+}
+#single-game .wrap-table td {
+  vertical-align: top;
+}
+#single-game .wrap-table td.info {
+  width: 55%;
+}
+#single-game .wrap-table .table {
+  width: 100%;
+  margin-bottom: 0px;
+}
+#single-game .wrap-table .table td {
+  width: 50%;
+  border-top: 0;
+}
+#single-game .wrap-table .table .team {
+  font-size: 15px;
+}
+#single-game .wrap-table .table .team img {
+  border-radius: 4px;
+  max-width: 80px;
+  max-height: 45px;
+}
+#single-game .wrap-table .table .team1 {
+  text-align: right;
+  border-right: 2px solid #eee;
+}
+#single-game .wrap-table .table .team1 img {
+  margin-left: 5px;
+}
+#single-game .wrap-table .table .team2 img {
+  margin-right: 5px;
+}
+.bet {
+  margin: 15px 10px 10px;
+  padding-top: 15px;
+  border-top: 2px solid #ddd;
+}
+.bet div.info {
+  color: #888;
+  font-size: 12px;
+  text-align: right;
+  margin: 0 10px;
+}
+.bet ul {
+  list-style: none;
+  margin: 0 0 0 15px;
+}
+.bet ul li {
+  margin: 8px 0;
+  font-size: 13px;
+}
+.bet .wrap-table {
+  margin-top: -15px;
+  width: 100%;
+}
+.bet .wrap-table td {
+  border-top: 0;
+  vertical-align: bottom;
+}
+.bet .wrap-table td.info {
+  width: 55%;
+}
+.bet .wrap-table .game {
+  font-size: 14px;
+  cursor: pointer;
+}
+.bet .wrap-table .game td {
+  width: 50%;
+  padding-bottom: 0;
+}
+.bet .wrap-table .game td.team1 {
+  text-align: right;
+}
+.bet .wrap-table .game td.team1 img {
+  margin-left: 5px;
+}
+.bet .wrap-table .game td.team2 {
+  margin-right: 5px;
+}
+.bet .wrap-table .game td img {
+  border-radius: 4px;
+  max-width: 80px;
+  max-height: 45px;
+}
+.bet .wrap-table .game:hover {
+  font-weight: bold;
+}
+.profile-table {
+  margin: 10px 20px 30px;
+}
+.profile-table td {
+  vertical-align: top;
+}
+.profile-table td .name {
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+.profile-table td .summ {
+  font-size: 14px;
+  color: #444;
+}
+.profile-table .image img {
+  border-radius: 4px;
+  margin: 0 10px;
+}
